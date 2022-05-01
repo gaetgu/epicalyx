@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E20F5BF281311FC00D3B8A0 /* mircApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5BE281311FC00D3B8A0 /* mircApp.swift */; };
+		5E19836828160B6A0068D753 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19836728160B6A0068D753 /* AppView.swift */; };
+		5E19836B28160D5C0068D753 /* AvailableNetworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19836A28160D5C0068D753 /* AvailableNetworks.swift */; };
+		5E19837028163F0A0068D753 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19836F28163F0A0068D753 /* PersistenceController.swift */; };
+		5E20F5BF281311FC00D3B8A0 /* epicalyxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5BE281311FC00D3B8A0 /* epicalyxApp.swift */; };
 		5E20F5C1281311FC00D3B8A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5C0281311FC00D3B8A0 /* ContentView.swift */; };
 		5E20F5C3281311FD00D3B8A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E20F5C2281311FD00D3B8A0 /* Assets.xcassets */; };
 		5E20F5C6281311FD00D3B8A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E20F5C5281311FD00D3B8A0 /* Preview Assets.xcassets */; };
-		5E20F5D1281311FD00D3B8A0 /* mircTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5D0281311FD00D3B8A0 /* mircTests.swift */; };
-		5E20F5DB281311FD00D3B8A0 /* mircUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5DA281311FD00D3B8A0 /* mircUITests.swift */; };
-		5E20F5DD281311FD00D3B8A0 /* mircUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5DC281311FD00D3B8A0 /* mircUITestsLaunchTests.swift */; };
+		5E20F5EA2813131900D3B8A0 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5E92813131900D3B8A0 /* ChannelCell.swift */; };
+		5E20F5EC2813149E00D3B8A0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5EB2813149E00D3B8A0 /* MessageView.swift */; };
+		5E20F5EE2813161C00D3B8A0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20F5ED2813161C00D3B8A0 /* Message.swift */; };
+		5E3094BB28171F4900E87E34 /* SentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3094BA28171F4900E87E34 /* SentMessage.swift */; };
+		5E3094BD28171F5000E87E34 /* ReceivedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3094BC28171F5000E87E34 /* ReceivedMessage.swift */; };
+		5E3094BF281729A900E87E34 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3094BE281729A900E87E34 /* SettingsView.swift */; };
+		5EC6CBB928149BCA00A981CA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6CBB828149BCA00A981CA /* OnboardingView.swift */; };
+		5ECF2E092816E1DE009131D5 /* NewChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF2E082816E1DE009131D5 /* NewChannelView.swift */; };
+		5ECF2E0B2816EB04009131D5 /* SidebarBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF2E0A2816EB04009131D5 /* SidebarBottom.swift */; };
+		5ECF2E0E2816F125009131D5 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF2E0D2816F125009131D5 /* Sidebar.swift */; };
+		5ECF2E13281705C0009131D5 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF2E12281705C0009131D5 /* Channel.swift */; };
+		5EE5E38828199AE800021275 /* IRC in Frameworks */ = {isa = PBXBuildFile; productRef = 5EE5E38728199AE800021275 /* IRC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +46,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E20F5BB281311FC00D3B8A0 /* mirc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mirc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E20F5BE281311FC00D3B8A0 /* mircApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mircApp.swift; sourceTree = "<group>"; };
+		5E19836728160B6A0068D753 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		5E19836A28160D5C0068D753 /* AvailableNetworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableNetworks.swift; sourceTree = "<group>"; };
+		5E19836F28163F0A0068D753 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		5E20F5BB281311FC00D3B8A0 /* epicalyx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epicalyx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E20F5BE281311FC00D3B8A0 /* epicalyxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epicalyxApp.swift; sourceTree = "<group>"; };
 		5E20F5C0281311FC00D3B8A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E20F5C2281311FD00D3B8A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E20F5C5281311FD00D3B8A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5E20F5C7281311FD00D3B8A0 /* mirc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mirc.entitlements; sourceTree = "<group>"; };
-		5E20F5CC281311FD00D3B8A0 /* mircTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mircTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E20F5D0281311FD00D3B8A0 /* mircTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mircTests.swift; sourceTree = "<group>"; };
-		5E20F5D6281311FD00D3B8A0 /* mircUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mircUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E20F5DA281311FD00D3B8A0 /* mircUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mircUITests.swift; sourceTree = "<group>"; };
-		5E20F5DC281311FD00D3B8A0 /* mircUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mircUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E20F5C7281311FD00D3B8A0 /* epicalyx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = epicalyx.entitlements; sourceTree = "<group>"; };
+		5E20F5CC281311FD00D3B8A0 /* epicalyxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epicalyxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E20F5D6281311FD00D3B8A0 /* epicalyxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epicalyxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E20F5E92813131900D3B8A0 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
+		5E20F5EB2813149E00D3B8A0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		5E20F5ED2813161C00D3B8A0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5E3094BA28171F4900E87E34 /* SentMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMessage.swift; sourceTree = "<group>"; };
+		5E3094BC28171F5000E87E34 /* ReceivedMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedMessage.swift; sourceTree = "<group>"; };
+		5E3094BE281729A900E87E34 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5EC6CBB828149BCA00A981CA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		5ECF2E082816E1DE009131D5 /* NewChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChannelView.swift; sourceTree = "<group>"; };
+		5ECF2E0A2816EB04009131D5 /* SidebarBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarBottom.swift; sourceTree = "<group>"; };
+		5ECF2E0D2816F125009131D5 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		5ECF2E12281705C0009131D5 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EE5E38828199AE800021275 /* IRC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +96,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E19836928160D230068D753 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5E19836A28160D5C0068D753 /* AvailableNetworks.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		5E20F5B2281311FC00D3B8A0 = {
 			isa = PBXGroup;
 			children = (
-				5E20F5BD281311FC00D3B8A0 /* mirc */,
-				5E20F5CF281311FD00D3B8A0 /* mircTests */,
-				5E20F5D9281311FD00D3B8A0 /* mircUITests */,
+				5E20F5BD281311FC00D3B8A0 /* epicalyx */,
 				5E20F5BC281311FC00D3B8A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +115,26 @@
 		5E20F5BC281311FC00D3B8A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E20F5BB281311FC00D3B8A0 /* mirc.app */,
-				5E20F5CC281311FD00D3B8A0 /* mircTests.xctest */,
-				5E20F5D6281311FD00D3B8A0 /* mircUITests.xctest */,
+				5E20F5BB281311FC00D3B8A0 /* epicalyx.app */,
+				5E20F5CC281311FD00D3B8A0 /* epicalyxTests.xctest */,
+				5E20F5D6281311FD00D3B8A0 /* epicalyxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E20F5BD281311FC00D3B8A0 /* mirc */ = {
+		5E20F5BD281311FC00D3B8A0 /* epicalyx */ = {
 			isa = PBXGroup;
 			children = (
-				5E20F5BE281311FC00D3B8A0 /* mircApp.swift */,
+				5E19836928160D230068D753 /* ViewModels */,
+				5E83714D2814EBE1000C06E2 /* Views */,
 				5E20F5C0281311FC00D3B8A0 /* ContentView.swift */,
+				5E20F5BE281311FC00D3B8A0 /* epicalyxApp.swift */,
 				5E20F5C2281311FD00D3B8A0 /* Assets.xcassets */,
-				5E20F5C7281311FD00D3B8A0 /* mirc.entitlements */,
+				5E20F5C7281311FD00D3B8A0 /* epicalyx.entitlements */,
 				5E20F5C4281311FD00D3B8A0 /* Preview Content */,
+				5E19836F28163F0A0068D753 /* PersistenceController.swift */,
 			);
-			path = mirc;
+			path = epicalyx;
 			sourceTree = "<group>";
 		};
 		5E20F5C4281311FD00D3B8A0 /* Preview Content */ = {
@@ -112,29 +145,63 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5E20F5CF281311FD00D3B8A0 /* mircTests */ = {
+		5E83714D2814EBE1000C06E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5E20F5D0281311FD00D3B8A0 /* mircTests.swift */,
+				5ECF2E11281705B3009131D5 /* Channel */,
+				5ECF2E102816F779009131D5 /* Sheets */,
+				5ECF2E0F2816F534009131D5 /* Message */,
+				5ECF2E0C2816EB99009131D5 /* Sidebar */,
+				5E19836728160B6A0068D753 /* AppView.swift */,
+				5E3094BE281729A900E87E34 /* SettingsView.swift */,
 			);
-			path = mircTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		5E20F5D9281311FD00D3B8A0 /* mircUITests */ = {
+		5ECF2E0C2816EB99009131D5 /* Sidebar */ = {
 			isa = PBXGroup;
 			children = (
-				5E20F5DA281311FD00D3B8A0 /* mircUITests.swift */,
-				5E20F5DC281311FD00D3B8A0 /* mircUITestsLaunchTests.swift */,
+				5ECF2E0A2816EB04009131D5 /* SidebarBottom.swift */,
+				5ECF2E0D2816F125009131D5 /* Sidebar.swift */,
 			);
-			path = mircUITests;
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		5ECF2E0F2816F534009131D5 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5E20F5EB2813149E00D3B8A0 /* MessageView.swift */,
+				5E20F5ED2813161C00D3B8A0 /* Message.swift */,
+				5E3094BA28171F4900E87E34 /* SentMessage.swift */,
+				5E3094BC28171F5000E87E34 /* ReceivedMessage.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		5ECF2E102816F779009131D5 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				5EC6CBB828149BCA00A981CA /* OnboardingView.swift */,
+				5ECF2E082816E1DE009131D5 /* NewChannelView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		5ECF2E11281705B3009131D5 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				5E20F5E92813131900D3B8A0 /* ChannelCell.swift */,
+				5ECF2E12281705C0009131D5 /* Channel.swift */,
+			);
+			path = Channel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E20F5BA281311FC00D3B8A0 /* mirc */ = {
+		5E20F5BA281311FC00D3B8A0 /* epicalyx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E20F5E0281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "mirc" */;
+			buildConfigurationList = 5E20F5E0281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "epicalyx" */;
 			buildPhases = (
 				5E20F5B7281311FC00D3B8A0 /* Sources */,
 				5E20F5B8281311FC00D3B8A0 /* Frameworks */,
@@ -144,14 +211,17 @@
 			);
 			dependencies = (
 			);
-			name = mirc;
+			name = epicalyx;
+			packageProductDependencies = (
+				5EE5E38728199AE800021275 /* IRC */,
+			);
 			productName = mirc;
-			productReference = 5E20F5BB281311FC00D3B8A0 /* mirc.app */;
+			productReference = 5E20F5BB281311FC00D3B8A0 /* epicalyx.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E20F5CB281311FD00D3B8A0 /* mircTests */ = {
+		5E20F5CB281311FD00D3B8A0 /* epicalyxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E20F5E3281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "mircTests" */;
+			buildConfigurationList = 5E20F5E3281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "epicalyxTests" */;
 			buildPhases = (
 				5E20F5C8281311FD00D3B8A0 /* Sources */,
 				5E20F5C9281311FD00D3B8A0 /* Frameworks */,
@@ -162,14 +232,14 @@
 			dependencies = (
 				5E20F5CE281311FD00D3B8A0 /* PBXTargetDependency */,
 			);
-			name = mircTests;
+			name = epicalyxTests;
 			productName = mircTests;
-			productReference = 5E20F5CC281311FD00D3B8A0 /* mircTests.xctest */;
+			productReference = 5E20F5CC281311FD00D3B8A0 /* epicalyxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5E20F5D5281311FD00D3B8A0 /* mircUITests */ = {
+		5E20F5D5281311FD00D3B8A0 /* epicalyxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E20F5E6281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "mircUITests" */;
+			buildConfigurationList = 5E20F5E6281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "epicalyxUITests" */;
 			buildPhases = (
 				5E20F5D2281311FD00D3B8A0 /* Sources */,
 				5E20F5D3281311FD00D3B8A0 /* Frameworks */,
@@ -180,9 +250,9 @@
 			dependencies = (
 				5E20F5D8281311FD00D3B8A0 /* PBXTargetDependency */,
 			);
-			name = mircUITests;
+			name = epicalyxUITests;
 			productName = mircUITests;
-			productReference = 5E20F5D6281311FD00D3B8A0 /* mircUITests.xctest */;
+			productReference = 5E20F5D6281311FD00D3B8A0 /* epicalyxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +278,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E20F5B6281311FC00D3B8A0 /* Build configuration list for PBXProject "mirc" */;
+			buildConfigurationList = 5E20F5B6281311FC00D3B8A0 /* Build configuration list for PBXProject "epicalyx" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,13 +287,16 @@
 				Base,
 			);
 			mainGroup = 5E20F5B2281311FC00D3B8A0;
+			packageReferences = (
+				5EE5E38628199AE700021275 /* XCRemoteSwiftPackageReference "swift-nio-irc-client" */,
+			);
 			productRefGroup = 5E20F5BC281311FC00D3B8A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E20F5BA281311FC00D3B8A0 /* mirc */,
-				5E20F5CB281311FD00D3B8A0 /* mircTests */,
-				5E20F5D5281311FD00D3B8A0 /* mircUITests */,
+				5E20F5BA281311FC00D3B8A0 /* epicalyx */,
+				5E20F5CB281311FD00D3B8A0 /* epicalyxTests */,
+				5E20F5D5281311FD00D3B8A0 /* epicalyxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,8 +332,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E20F5EC2813149E00D3B8A0 /* MessageView.swift in Sources */,
 				5E20F5C1281311FC00D3B8A0 /* ContentView.swift in Sources */,
-				5E20F5BF281311FC00D3B8A0 /* mircApp.swift in Sources */,
+				5ECF2E0B2816EB04009131D5 /* SidebarBottom.swift in Sources */,
+				5E3094BB28171F4900E87E34 /* SentMessage.swift in Sources */,
+				5ECF2E13281705C0009131D5 /* Channel.swift in Sources */,
+				5E3094BF281729A900E87E34 /* SettingsView.swift in Sources */,
+				5E19836B28160D5C0068D753 /* AvailableNetworks.swift in Sources */,
+				5E20F5EA2813131900D3B8A0 /* ChannelCell.swift in Sources */,
+				5ECF2E092816E1DE009131D5 /* NewChannelView.swift in Sources */,
+				5E19836828160B6A0068D753 /* AppView.swift in Sources */,
+				5E20F5BF281311FC00D3B8A0 /* epicalyxApp.swift in Sources */,
+				5EC6CBB928149BCA00A981CA /* OnboardingView.swift in Sources */,
+				5E3094BD28171F5000E87E34 /* ReceivedMessage.swift in Sources */,
+				5E20F5EE2813161C00D3B8A0 /* Message.swift in Sources */,
+				5ECF2E0E2816F125009131D5 /* Sidebar.swift in Sources */,
+				5E19837028163F0A0068D753 /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E20F5D1281311FD00D3B8A0 /* mircTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +362,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E20F5DB281311FD00D3B8A0 /* mircUITests.swift in Sources */,
-				5E20F5DD281311FD00D3B8A0 /* mircUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +370,12 @@
 /* Begin PBXTargetDependency section */
 		5E20F5CE281311FD00D3B8A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E20F5BA281311FC00D3B8A0 /* mirc */;
+			target = 5E20F5BA281311FC00D3B8A0 /* epicalyx */;
 			targetProxy = 5E20F5CD281311FD00D3B8A0 /* PBXContainerItemProxy */;
 		};
 		5E20F5D8281311FD00D3B8A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E20F5BA281311FC00D3B8A0 /* mirc */;
+			target = 5E20F5BA281311FC00D3B8A0 /* epicalyx */;
 			targetProxy = 5E20F5D7281311FD00D3B8A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,11 +499,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = mirc/mirc.entitlements;
+				CODE_SIGN_ENTITLEMENTS = epicalyx/epicalyx.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mirc/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"epicalyx/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -428,7 +512,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gaetgu.mirc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaetgu.epicalyx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,11 +524,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = mirc/mirc.entitlements;
+				CODE_SIGN_ENTITLEMENTS = epicalyx/epicalyx.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mirc/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"epicalyx/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -453,7 +537,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gaetgu.mirc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaetgu.epicalyx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -474,7 +558,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mirc.app/Contents/MacOS/mirc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epicalyx.app/Contents/MacOS/epicalyx";
 			};
 			name = Debug;
 		};
@@ -492,7 +576,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mirc.app/Contents/MacOS/mirc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epicalyx.app/Contents/MacOS/epicalyx";
 			};
 			name = Release;
 		};
@@ -531,7 +615,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E20F5B6281311FC00D3B8A0 /* Build configuration list for PBXProject "mirc" */ = {
+		5E20F5B6281311FC00D3B8A0 /* Build configuration list for PBXProject "epicalyx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E20F5DE281311FD00D3B8A0 /* Debug */,
@@ -540,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E20F5E0281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "mirc" */ = {
+		5E20F5E0281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "epicalyx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E20F5E1281311FD00D3B8A0 /* Debug */,
@@ -549,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E20F5E3281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "mircTests" */ = {
+		5E20F5E3281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "epicalyxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E20F5E4281311FD00D3B8A0 /* Debug */,
@@ -558,7 +642,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E20F5E6281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "mircUITests" */ = {
+		5E20F5E6281311FD00D3B8A0 /* Build configuration list for PBXNativeTarget "epicalyxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E20F5E7281311FD00D3B8A0 /* Debug */,
@@ -568,6 +652,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EE5E38628199AE700021275 /* XCRemoteSwiftPackageReference "swift-nio-irc-client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NozeIO/swift-nio-irc-client.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EE5E38728199AE800021275 /* IRC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EE5E38628199AE700021275 /* XCRemoteSwiftPackageReference "swift-nio-irc-client" */;
+			productName = IRC;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E20F5B3281311FC00D3B8A0 /* Project object */;
 }

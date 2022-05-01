@@ -8,10 +8,17 @@
 import SwiftUI
 
 @main
-struct mircApp: App {
+struct epicalyxApp: App {    
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }
+        .commands {
+            SidebarCommands()
+        }
+        
+        Settings {
+            SettingsView()
         }
     }
 }

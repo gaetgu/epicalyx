@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-nio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio.git",
+      "state" : {
+        "revision" : "d6e3762e0a5f7ede652559f53623baf11006e17c",
+        "version" : "2.39.0"
+      }
+    },
+    {
+      "identity" : "swift-nio-irc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftNIOExtras/swift-nio-irc.git",
+      "state" : {
+        "revision" : "782e6d3bcd892efaedc9c530b2d5c5fbb42a680e",
+        "version" : "0.8.2"
+      }
+    },
+    {
+      "identity" : "swift-nio-irc-client",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NozeIO/swift-nio-irc-client.git",
+      "state" : {
+        "revision" : "7a0b7d4cde33614b7b0af193cd8ff0f7f305eb77",
+        "version" : "0.8.1"
+      }
+    },
+    {
+      "identity" : "swift-nio-transport-services",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio-transport-services",
+      "state" : {
+        "revision" : "8ab824b140d0ebcd87e9149266ddc353e3705a3e",
+        "version" : "1.11.4"
+      }
+    }
+  ],
+  "version" : 2
+}
